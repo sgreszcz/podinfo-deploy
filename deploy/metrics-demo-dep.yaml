@@ -20,7 +20,7 @@ spec:
         prometheus.io/scrape: 'true'
     spec:
       containers:
-      - name: podinfod
+      - name: metrics-demo
         image: quay.io/brice/metrics-demo:v4-subscription-service
         command:
         - ./metrics-demo

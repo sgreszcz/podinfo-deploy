@@ -11,11 +11,11 @@ spec:
   replicas: 4
   selector:
     matchLabels:
-      app: podinfo
+      app: metrics-demo
   template:
     metadata:
       labels:
-        app: podinfo
+        app: metrics-demo
       annotations:
         prometheus.io/scrape: 'true'
     spec:
